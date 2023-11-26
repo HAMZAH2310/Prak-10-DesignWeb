@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* Warna latar belakang */
+}
+
+/* Padding and margin adjustments */
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #f5dc3f; /* Warna latar belakang jumbotron */
+  margin-bottom: 0;
+}
+
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Styling for About, Portofolio, and Contact sections */
+
+#About {
+  background-color: #273036;
+  color: white;
+  padding: 50px 0;
+}
+
+#Portofolio {
+  background-color: #f5dc3f;
+  padding: 50px 0;
+}
+
+#Contact {
+  background-color: #273036;
+  color: white;
+  padding: 50px 0;
+}
+
+/* Carousel image adjustments */
+
+.carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
+}
